@@ -2,7 +2,7 @@
 	"name": "tailwind-vite",
 	"version": "0.0.0",
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite serve ./dist",
 		"watch": "vite serve ./dist & npx tailwindcss -i main.css -o ./dist/main.css --watch",
 		"build": "vite build",
 		"preview": "vite preview"
